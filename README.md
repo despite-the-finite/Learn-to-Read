@@ -4,6 +4,11 @@ A browser-based reading adventure for a 4–5 year old. It is an adventure game
 first: the child explores a forest, meets characters, finds secrets and
 collects treasure — and reading is the magic that makes all of it work.
 
+**She can play it on her own.** Every screen reads itself out loud, every
+button is a picture, a hand points at what to tap, and an ear button in the
+same corner of every screen repeats whatever was just said. The only words she
+is ever asked to read are the ones the game is teaching her.
+
 No build step, no frameworks, no network, no accounts, no adverts. Open it and
 play.
 
@@ -60,20 +65,23 @@ There is no villain. Nothing in this game is frightening.
 
 ## Chapters
 
-| # | Region | Teaches | Status |
+| # | Region | Teaches | Scenes |
 |---|--------|---------|--------|
-| 1 | 🌳 The Letter Forest | letters, upper/lowercase, letter sounds, beginning sounds | **fully playable** |
-| 2 | 🏞️ Sound Valley | blending CVC words (c‑a‑t → cat) | preview postcard |
-| 3 | 🏘️ Word Village | high-frequency sight words | preview postcard |
-| 4 | ⛵ Sentence Sea | first sentences | preview postcard |
-| 5 | ⛰️ Story Mountain | short stories, comprehension | preview postcard |
+| 1 | 🌳 The Letter Forest | letters, upper/lowercase, letter sounds, beginning sounds | 13 |
+| 2 | 🏞️ Sound Valley | blending CVC words (c‑a‑t → cat), rhyme and word families | 10 |
+| 3 | 🏘️ Word Village | high-frequency sight words, whole-word reading | 9 |
+| 4 | ⛵ Sentence Sea | building and reading first sentences | 9 |
+| 5 | ⛰️ Story Mountain | short stories, comprehension, everything together | 9 |
 
-Chapter 1 is a 13-scene journey: meet Pip → catch letter fireflies → help
-Bramble sort his mushrooms → follow a butterfly to a **secret glade** → cross
-the Sound River with Poppy → learn spell-building from Luma → talk Grumblewink
-into opening his gate (a five-lock finale mixing every skill) → make a friend
-of him. Around 23 reading interactions, roughly 10–15 minutes, and it saves
-after every single one.
+All five are fully playable, end to end, around 90 reading interactions in
+total. Each region follows the same shape: arrive and meet someone, learn the
+new idea in a story scene, practise it in two or three activities, find a
+hidden thing, then open a multi-lock gate that mixes every skill learned so
+far. The last one fills the Great Book back up and Grumblewink finally gets
+his story.
+
+Progress saves after every single answer, and the map remembers which scene
+she stopped on.
 
 ---
 
@@ -83,15 +91,21 @@ after every single one.
 
 | Activity | Skill | Where |
 |---|---|---|
-| Letter Fireflies — catch the firefly carrying a letter | letter recognition | ch1 + finale |
-| Mushroom Match — pair the big letter with its little one | upper/lowercase | ch1 + finale |
-| Hidden Leaf Hunt — find a letter hidden in the scenery | letter recognition | ch1 secret |
-| Sound River — hop the stone whose picture starts with the sound | letter sounds | ch1 + finale |
-| Magic Spell — build a word letter by letter | phonics / blending | ch1 + finale |
-| Word Bridge — pick the word that names the picture | word reading | ch1 finale |
-| Treasure Cave — read the clue, open the right chest | word reading | ch1 secret glade |
-| Story Detective — read a tiny story, answer a question | comprehension | ready for ch4–5 |
-| Rhyme Time — find the word that rhymes | word families | ready for ch2 |
+| Letter Fireflies — catch the firefly carrying a letter | letter recognition, letter sounds | ch1, ch5 |
+| Mushroom Match — pair the big letter with its little one | upper/lowercase | ch1 |
+| Hidden Leaf Hunt — find a letter hidden in the scenery | letter recognition | every chapter |
+| Sound River — hop the stone whose picture starts with the sound | letter sounds | ch1, ch2, ch5 |
+| Magic Spell — build a word letter by letter | phonics / blending | ch1, ch2, ch3, ch5 |
+| Rhyme Time — find the word that rhymes | word families | ch2 |
+| Treasure Cave — read the clue, open the right chest | word reading | ch1, ch2, ch3 |
+| Sight Signs — hear a word, tap the signpost that says it | sight words | ch3, ch4, ch5 |
+| Word Bridge — pick the word that names the picture | word reading | ch3, ch4, ch5 |
+| Sentence Boat — put scattered words back in order | sentence reading | ch4, ch5 |
+| Reading the Waves — read a sentence, pick the picture | sentence reading | ch4 |
+| Story Detective — read a tiny story, answer a question | comprehension | ch5 |
+
+Every one of the seven tracked skills now has at least one activity that
+practises it, and the parent dashboard has real numbers for all of them.
 
 **Systems**
 
@@ -116,12 +130,47 @@ after every single one.
   in four scene transitions, each one only ever happens once.
 - **Autosave** — after every answer, and flushed when the tab is hidden or
   closed. There is no save button.
-- **Spoken cues** — each round says its *cue* aloud once ("catch the letter
-  M"), never the answer. Games where the written word **is** the answer only
-  ever speak a generic instruction. Story dialogue is read aloud in each
-  character's own voice, so a pre-reader can follow the adventure alone.
-  Every 🔊 button re-reads on demand. Turn the automatic voice off in the
-  Parent Zone and the buttons still work.
+- **Nothing needs reading** — see below. This is the design constraint the
+  whole game is built around.
+
+---
+
+## A four-year-old can play this alone
+
+The point of a game that teaches reading is that it cannot *require* reading.
+Every place the game asked a child to read a word before she could carry on
+has been removed:
+
+- **Every screen introduces itself out loud** the moment it opens — the title,
+  the character creator, the map, the adventure book, every story scene, every
+  round of every activity, every reward, every locked region, every
+  celebration. There is no screen that is silent on arrival.
+- **Every button is a picture**, with the word underneath for whoever is
+  reading over her shoulder. ▶️ next, ✅ go, 👍 ready, 🏠 home, 📔 book,
+  🗺️ map, 🎉 yay.
+- **The 👂 ear button** sits in the same corner of every single screen and
+  repeats whatever was just said. It is the one control she has to learn, and
+  she only has to learn it once.
+- **A pointing hand** appears on the thing to tap. On the map it sits on the
+  region she should play next; in a scene it sits on the continue button.
+- **Going quiet is noticed.** If nothing is tapped for a while the game offers
+  the instruction again and points. It keeps offering — less often, but never
+  stopping — because there may be nobody nearby to ask.
+- **Story words light up as they are spoken**, one at a time, so the sounds
+  she hears are visibly attached to the marks on the page.
+- **She cannot get stuck.** Wrong options fade away, two wrong tries reveals
+  the answer, and after a long silence the game walks her to it and lets her
+  tap it herself. Every round is winnable.
+- **The first tap wakes the book.** Browsers refuse to make a sound until the
+  page has been touched, so a cold start shows a big hand and "tap anywhere"
+  rather than narrating into silence.
+
+The only text a child is ever *required* to read is the text she is being
+taught to read — the letter on the firefly, the word on the plank, the
+sentence on the page. That is the game.
+
+The one screen that is deliberately exempt is the Parent Zone, which is for a
+grown-up, is behind a gate, and stays silent.
 
 ---
 
@@ -165,10 +214,11 @@ css/
   styles.css          layout, components, responsive rules
   animations.css      keyframes, particles, celebrations
 js/
-  util.js             DOM builder, RNG, event bus
+  util.js             DOM builder, RNG, event bus, screen-scoped subscriptions
   storage.js          persistence layer  ← swap the adapter for cloud saves
   state.js            the save file and every mutation that touches it
-  audio.js            speech synthesis + procedurally generated sound effects
+  audio.js            a speech QUEUE + procedurally generated sound effects
+  guide.js            narration, the pointing hand, idle nudges  ← read this
   art.js              every character and prop, as inline SVG
   progression.js      Reading Power, ranks, the adaptive engine
   readingEngine.js    chooses what to ask (spaced, adaptive, fair distractors)
@@ -177,14 +227,15 @@ js/
   game.js             boot
   data/
     letters.js        the alphabet, with sounds and example words
-    words.js          the word corpus (~130 words, add as many as you like)
+    words.js          the word corpus (~145 words, add as many as you like)
     characters.js     the cast
     stories.js        tiny stories + simple sentences
     chapters.js       the adventure itself, as data
   minigames/
     base.js           the shared engine: prompts, hints, feedback, scoring
-    letterFireflies.js  mushroomMatch.js  soundStones.js  magicSpell.js
-    wordBridge.js       treasureCave.js   storyDetective.js  rhymeTime.js
+    letterFireflies.js  mushroomMatch.js  soundStones.js   magicSpell.js
+    wordBridge.js       treasureCave.js   storyDetective.js rhymeTime.js
+    sightSigns.js       sentenceBuild.js  (sentenceBuild registers two games)
   screens/
     title.js  characterCreator.js  worldMap.js  chapter.js
     adventureBook.js  parentMode.js
@@ -227,7 +278,11 @@ LTR.game('myGame', {
     var word = LTR.reading.pickWord(ctx.skill);          // adaptive pick
     return {
       prompt: 'Find the word', bucket: 'words', key: word.word,
-      autoVoice: 'Find the word',                        // cue, never answer
+      // The spoken cue. A plain string is read as a sentence; a list lets you
+      // mix speech with letter names, letter sounds and words, which matters
+      // because engines read a lone "A" as the article "uh". Leave it out and
+      // the written prompt is read instead — no round is ever silent.
+      autoVoice: [{ text: 'Find the word' }, { word: word.word }],
       render: function (area, api) {
         area.appendChild(api.choice({ txt: word.word, correct: true }));
       }
@@ -247,23 +302,36 @@ LTR.storage.useAdapter({ name: 'cloud', load, save, remove });
 
 ## Tested
 
-Played end-to-end in Chromium at 900×700, 360×640, 390×740, 740×380
-(landscape) and 820×1100, with zero console errors: full Chapter 1
-completion, chapter unlock, reload-and-resume mid-chapter, wrong answers,
-the full hint ladder, adaptive difficulty moving both up and down, the parent
-gate (short taps rejected, long press + correct answer accepted), and every
-minigame including the two not yet used in Chapter 1.
+Driven headlessly (jsdom) and rendered in Chromium:
+
+- **Full playthrough** — a robot that taps options at random, the way a child
+  mashing the screen does, completes all five chapters: every one of the 11
+  minigames plays, ~90 reading interactions, no runtime errors, no stalls, no
+  screen it cannot get out of.
+- **Round contract** — 600 generated rounds per game per skill level. Each is
+  checked for exactly one correct answer, no two options sharing a picture or
+  a word, and no beginning-sound distractor that makes the target's sound.
+  Zero failures.
+- **Non-reader audit** — every screen, every chapter opening and every
+  minigame is checked to speak on arrival, to offer the ear button, and to
+  have no text-only button anywhere.
+- **Layout** — no horizontal overflow at 320×640, 390×844, 420×820, 768×1024,
+  820×380 (landscape) or 1280×800.
+- **By hand** — parent gate (short taps rejected, long press + correct answer
+  accepted), reload-and-resume mid-chapter, the full hint ladder, adaptive
+  difficulty moving up and down, and voice toggles.
 
 ## What to build next
 
-1. **Chapter 2, Sound Valley** — the pieces already exist: `magicSpell` with
-   harder words, `rhymeTime`, and a new "stretch the sounds" activity.
-   It is a data file, not engine work.
-2. **Recorded audio** for the letter sounds. Speech synthesis says "buh" well
+1. **Recorded audio** for the letter sounds. Speech synthesis says "buh" well
    enough, but a real voice is warmer and more accurate — drop it behind
-   `LTR.audio.letterSound()`.
-3. **More words.** The corpus is ~130; the engine is built for thousands.
-4. **A word-family activity** (`-at`, `-og`, `-un`) — the `family` field is
-   already in the data.
-5. **Cloud save** via the adapter, so progress follows her between the tablet
-   and the laptop.
+   `LTR.audio.letterSound()`. Every caller already goes through that one
+   function.
+2. **More words and more sentences.** The corpus is ~145 words and 20
+   sentences; the engine is built for thousands and adding one is one line.
+3. **Chapter 6 and beyond** — digraphs (sh, ch, th), longer vowels, and
+   chapter books. Appending to `chapters.js` needs no engine changes.
+4. **A writing activity** — tracing letters with a finger, using the same
+   `LTR.game()` contract.
+5. **Cloud save** via the storage adapter, so progress follows her between the
+   tablet and the laptop.
