@@ -28,17 +28,20 @@ To host it, upload the folder to any static host (GitHub Pages, Netlify,
 S3…). There is nothing to compile.
 
 **Sound:** the voice comes from the browser's built-in speech synthesis, so
-the first tap anywhere unlocks audio (a browser rule). No audio files ship
-with the game.
+the first tap anywhere unlocks audio (a browser rule) — usually the "Tap to
+begin" on the opening logo. The logo's soundtrack is the only recorded audio
+that ships with the game.
 
 ---
 
 ## Opening ident
 
-Every launch opens on the Entropic Labs logo (`assets/video/entropic-ident.mp4`), played full-screen
+Every launch opens on the Entropic Labs logo and its sound (`assets/video/entropic-ident.mp4`), played full-screen
 by `js/ident.js` while the game loads underneath. A tap, click, Enter, Space or Escape
-skips it; if the video can't load or autoplay, the game simply starts. Add
-`?noident` to the URL to skip it while developing.
+skips it; if the video can't load, the game simply starts. The logo has sound,
+and browsers won't start sound before the player interacts, so when the browser
+blocks it the screen first says "Tap to begin" (that tap also unlocks the game's
+own audio). Add `?noident` to the URL to skip it while developing.
 
 ## The story
 
