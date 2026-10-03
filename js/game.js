@@ -70,10 +70,19 @@
           ' · Reading Power ' + LTR.progression.level);
   }
 
+  /* The Entropic Labs ident (js/ident.js) plays first. Wait for it, so the
+     title screen and its narration arrive after the tap that started the
+     ident — which has already unlocked audio — instead of asking again. */
+  function start() {
+    var ident = window.EntropicIdent;
+    if (ident && ident.done) ident.done.then(boot);
+    else boot();
+  }
+
   if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', boot);
+    document.addEventListener('DOMContentLoaded', start);
   } else {
-    boot();
+    start();
   }
 
 })(window.LTR);
