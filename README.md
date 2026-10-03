@@ -33,6 +33,13 @@ with the game.
 
 ---
 
+## Opening ident
+
+Every launch opens on the Entropic Labs logo (`assets/video/entropic-ident.mp4`), played full-screen
+by `js/ident.js` while the game loads underneath. A tap, click, Enter, Space or Escape
+skips it; if the video can't load or autoplay, the game simply starts. Add
+`?noident` to the URL to skip it while developing.
+
 ## The story
 
 Every word in the world lives in the Great Book of Everything. One night the
